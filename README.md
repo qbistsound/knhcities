@@ -25,7 +25,7 @@ The configuration file is located in `src/main/resources/config.json`.  Standard
 
 **database_namespace**      Database Schema / Namespace (optional).
 
-**database_connections**    Maximum number of connections ( must be >= 1).
+**database_connections**    Maximum number of connections ( must be >= 1) (Note SQLite does not support more than 1 connection).
 
 **database_url**            JDBC Database connection string (ie. jdbc:postgresql:/[host]:[port]/[database-name] or jdbc:sqlite:/path/to/db).
   
