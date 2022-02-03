@@ -1,0 +1,12 @@
+{
+	"database_username": "",
+	"database_password": "",
+	"database_namespace": "",
+	"database_connections": 1,
+	"database_url": "jdbc:sqlite:/tmp/knhcities.db",
+	"authentication": true,
+	"user_login": "user",
+	"user_password": "user",
+	"admin_login": "root",
+	"admin_password": "toor" 
+}
