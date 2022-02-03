@@ -42,6 +42,5 @@ The configuration file is located in `src/main/resources/config.json`.  Standard
   **_notes:_**
   - if you do end up creating the database from scratch, this does consume a bit of time due to scraping all the images in the initial phase.
   - authentication is minimal, this is not the usual approach i would take, but for convenience and POC, authentication is done in-memory through HTTP Basic Authentication, normally an OAuth or custom WASP compatible authentication is preferred.
-  - I used Spring Boot for the requirements, however professionally a small application like this can be done in a much light-weight and secure manner through raw java based http service.
-  - service.java is a vertical slice, and has no Spring Dependencies, allowing for the entire architecture to be moved to any container required.
+  - service.java is the vertical slice, and has no Spring Dependencies, allowing for the entire architecture to be moved to any container required.
   - there were plenty of missing images from the csv, i have alternated this with a `missing image` image.
