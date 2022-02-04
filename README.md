@@ -1,5 +1,5 @@
 # knhcities
-Cities APP for K&amp;H
+Cities APP for K&amp;N
 
 # configuration
 
